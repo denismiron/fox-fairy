@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>FOX&FAIRY</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pompiere&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="outer-container">
+        <div class="inner-container">
+            <header>
+                <div class="navigation-container">
+                    <div class="logo">
+                        <a href="#" class="logo">Fox&fairy</a>
+                    </div>
+                    <nav class="navbar">
+                        <ul class="navigation">
+                            <li><a href="#" title="Event">Event</a></li>
+                            <li><a href="#" title="Schedule">Schedule</a></li>
+                            <li><a href="#" title="Speakers">Speakers</a></li>
+                            <li><a href="#" title="Sponsors">Sponsors</a></li>
+                        </ul>
+                        <button class="btn btn-secondary">Book tickets</button>
+                    </nav>
+                    <div class="gamburger">
+                        <span class="open-slide">
+              <a href="#" onclick="openSlideMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </span>
+                    </div>
+                    <div id="side-menu" class="side-nav">
+                        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                        <a href="#" title="Event">Event</a>
+                        <a href="#" title="Schedule">Schedule</a>
+                        <a href="#" title="Speakers">Speakers</a>
+                        <a href="#" title="Sponsors">Sponsors</a>
+                        <button class="btn btn-secondary">Book tickets</button>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="main-container clearfix">
+                    <img src="image.jpg" alt="Designers Meetup">
+                    <p class="title">&mdash; UX Meetup 2021</p>
+                    <p class="subtitle"><span class="designers">Designers</span> meet</p>
+                    <p class="content">Great <span class="lilac">design</span> is a force of nature. A design meet that is designed to change the way you think</p>
+                    <button class="btn btn-primary">Register now</button>
+                </div>
+            </main>
+
+            <footer>
+                <div class="footer-container">
+                    <button class="btn btn-tertiary">Need help?</button>
+                    <div class="button-wrapper">
+                        <button class="btn scroll-button">Scroll to explore</button>
+                        <span class="arrow-down">&#8595;</span>
+                    </div>
+                    <span class="links">Instagram/Facebook/Twitter</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <p class="website-link">www.nickelfox.com</p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
