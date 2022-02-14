@@ -1,5 +1,5 @@
 :root {
-    --color-gray: #312A2B;
+    --main-color: #312A2B;
 }
 
 * {
@@ -15,18 +15,16 @@
 }
 
 body {
-    background-color: var(--color-gray);
-    color: var(--color-gray);
+    background-color: var(--main-color);
+    /* color: var(--color-gray); */
 }
 
-.outer-container {
+.external-container {
     box-sizing: border-box;
     margin: 126px auto 0;
     max-width: 1487px;
     border: 1px solid #FFFFFF;
     background-color: #494241;
-    -webkit-backdrop-filter: blur(16px);
-    backdrop-filter: blur(16px);
 }
 
 .inner-container {
@@ -34,8 +32,6 @@ body {
     max-width: 1440px;
     border: 1px solid #FFFFFF;
     background-color: #D8D3C9;
-    -webkit-backdrop-filter: blur(16px);
-    backdrop-filter: blur(16px);
 }
 
 
@@ -46,7 +42,7 @@ body {
     justify-content: space-between;
     max-width: 1440px;
     margin: 48px 80px 0;
-    color: var(--color-gray);
+    color: var(--main-color);
     font-size: 16px;
 }
 
@@ -58,7 +54,7 @@ body {
     letter-spacing: 0.045em;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--color-gray);
+    color: var(--main-color);
 }
 
 .navbar {
@@ -80,12 +76,12 @@ body {
     font-weight: bold;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    color: var(--color-gray);
+    color: var(--main-color);
 }
 
 .navigation-container .navigation a {
     text-decoration: none;
-    color: var(--color-gray);
+    color: var(--main-color);
 }
 
 .btn {
@@ -94,7 +90,7 @@ body {
     justify-content: center;
     width: 172px;
     height: 52px;
-    border: 1px solid var(--color-gray);
+    border: 1px solid var(--main-color);
     font-family: Mulish, Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -104,7 +100,7 @@ body {
 .btn-secondary {
     margin-left: 64px;
     background-color: #D8D3C9;
-    color: var(--color-gray);
+    color: var(--main-color);
     font-size: 16px;
     letter-spacing: 0.04em;
 }
@@ -239,7 +235,7 @@ body {
 
 .btn-primary {
     margin-top: 39px;
-    background-color: var(--color-gray);
+    background-color: var(--main-color);
     color: #FFFFFF;
     font-size: 18px;
 }
@@ -256,7 +252,7 @@ body {
     max-width: 1240px;
 }
 
-.btn-tertiary {
+.btn-third {
     justify-content: flex-start;
     margin-right: 330px;
     width: 117px;
@@ -270,7 +266,7 @@ body {
 
 .button-wrapper {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     margin-right: 260px;
