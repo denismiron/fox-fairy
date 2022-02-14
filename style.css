@@ -364,7 +364,7 @@ body {
     }
     @font-face {
         font-family: Sansation;
-        src: local("fonts/Sansation_Regular.ttf") format("truetype");
+        src: url("fonts/Sansation_Regular.ttf") format("truetype");
         font-style: normal;
         font-weight: normal;
     }
